@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 17,
+  "next_lesson_number": 18,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -25,7 +25,8 @@
       "kind": "lesson",
       "topic": "Импульсивные покупки на маркетплейсах: почему мы покупаем в 2 ночи",
       "book_mention": false,
-      "status": "planned"
+      "status": "scheduled",
+      "lesson": 17
     },
     {
       "date": "2026-10-24",
