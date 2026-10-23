@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 18,
+  "next_lesson_number": 19,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -33,7 +33,8 @@
       "kind": "lesson",
       "topic": "Правило 50/30/20: как делить зарплату без таблиц",
       "book_mention": false,
-      "status": "planned"
+      "status": "scheduled",
+      "lesson": 18
     },
     {
       "date": "2026-10-25",
