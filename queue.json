@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 19,
+  "next_lesson_number": 20,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -41,7 +41,8 @@
       "kind": "lesson",
       "topic": "Кредитная карта и льготный период: как бесплатная кредитка становится платной",
       "book_mention": true,
-      "status": "planned"
+      "status": "scheduled",
+      "lesson": 19
     },
     {
       "date": "2026-10-26",
