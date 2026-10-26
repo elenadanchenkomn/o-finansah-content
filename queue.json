@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 21,
+  "next_lesson_number": 22,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -57,7 +57,8 @@
       "kind": "lesson",
       "topic": "5 признаков финансовой пирамиды",
       "book_mention": true,
-      "status": "planned"
+      "status": "scheduled",
+      "lesson": 21
     },
     {
       "date": "2026-10-28",
