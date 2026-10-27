@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 22,
+  "next_lesson_number": 23,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -65,7 +65,8 @@
       "kind": "lesson",
       "topic": "Нестабильный доход: как планировать деньги без оклада",
       "book_mention": false,
-      "status": "planned"
+      "status": "scheduled",
+      "lesson": 22
     },
     {
       "date": "2026-10-29",
