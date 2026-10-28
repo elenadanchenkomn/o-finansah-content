@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 23,
+  "next_lesson_number": 24,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -73,7 +73,8 @@
       "kind": "lesson",
       "topic": "Деньги в паре: как говорить о деньгах и не поссориться",
       "book_mention": true,
-      "status": "planned"
+      "status": "scheduled",
+      "lesson": 23
     },
     {
       "date": "2026-10-30",
