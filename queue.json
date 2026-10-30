@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 25,
+  "next_lesson_number": 26,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -83,10 +83,17 @@
       "book_mention": false,
       "status": "scheduled",
       "lesson": 24
+    },
+    {
+      "date": "2026-10-31",
+      "kind": "lesson",
+      "topic": "Жить сейчас или копить потом: как найти баланс",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 25
     }
   ],
   "backlog": [
-    "Жить сейчас или копить потом: как найти баланс",
     "Когда занимать можно, а когда нельзя: хороший и плохой долг",
     "Как банк считает проценты по кредиту: почему ставка в рекламе не равна переплате",
     "Снежный ком и лавина: два способа гасить несколько долгов",
