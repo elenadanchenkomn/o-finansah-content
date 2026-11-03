@@ -2,7 +2,8 @@
 
 Slide spec:
   comic  title?, label?, panels: [ {caption?, chars: [{who, mood}], bubbles: [{who, text}]} ]  (exactly 1 panel)
-    who:  "katya" (путается в деньгах, терракотовый свитер) | "sonya" (разобралась чуть раньше, очки, зелёный свитер)
+    who:  "masya" (девушка, разобралась чуть раньше — голос блога, зелёное худи)
+          | "vasya" (парень, путается в деньгах и попадает в типичные ситуации, терракотовое худи)
     mood: neutral | happy | worried | shocked | thinking
     The first char stands on the left, the second on the right. Bubbles go top to bottom,
     each aligned to its speaker's side. One panel per slide. Max bubbles: 3 (2 if the slide has a title),
@@ -15,8 +16,10 @@ SKIN, CHEEK = "#F2C9A5", "#EE9C86"
 e = html.escape
 
 CHARS = {
-    "katya": {"sweater": "#C8643B", "hair": "#6B3E26", "style": "long"},
-    "sonya": {"sweater": GREEN, "hair": "#2A2622", "style": "bob", "glasses": True},
+    # Мася — разобралась чуть раньше (голос блога): пучок, шторка-чёлка, серьги-кольца, зелёное худи
+    "masya": {"hoodie": GREEN, "hood": "#456B55", "hair": "#C4924F", "skin": "#F2C9A5", "style": "bun"},
+    # Вася — путается в деньгах и попадает в типичные ситуации: кудрявый верх, щетина, терракотовое худи
+    "vasya": {"hoodie": "#C8643B", "hood": "#A9512D", "hair": "#3A2A20", "skin": "#E2AE86", "style": "curly"},
 }
 S = f'stroke="{INK}" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"'
 
@@ -47,22 +50,30 @@ def face(mood):
 
 def character(who, mood, size):
     c = CHARS[who]
-    body = f'<path d="M18 262 C18 192 52 172 100 172 C148 172 182 192 182 262 Z" fill="{c["sweater"]}" {S}/>'
-    neck = f'<path d="M86 140 L86 176 Q100 186 114 176 L114 140 Z" fill="{SKIN}" {S}/>'
-    head = f'<circle cx="100" cy="100" r="58" fill="{SKIN}" {S}/>'
-    if c["style"] == "long":
-        back = f'<path d="M40 104 C28 40 70 26 100 26 C134 26 174 42 160 104 L168 206 C150 214 132 196 138 176 L62 176 C68 196 50 214 32 206 Z" fill="{c["hair"]}" {S}/>'
-        front = f'<path d="M42 92 C42 48 72 34 100 34 C130 34 160 50 158 94 C144 74 120 62 104 58 C92 74 66 86 42 92 Z" fill="{c["hair"]}" {S}/>'
+    sk = c["skin"]
+    body = f'<path d="M14 262 C14 190 50 168 100 168 C150 168 186 190 186 262 Z" fill="{c["hoodie"]}" {S}/>'
+    hood = f'<path d="M56 178 Q100 214 144 178 Q132 168 100 168 Q68 168 56 178 Z" fill="{c["hood"]}" {S}/>'
+    strings = (f'<path d="M88 200 L86 236" fill="none" stroke="#F4EFE7" stroke-width="5" stroke-linecap="round"/>'
+               f'<path d="M112 200 L114 236" fill="none" stroke="#F4EFE7" stroke-width="5" stroke-linecap="round"/>')
+    neck = f'<path d="M86 140 L86 180 Q100 190 114 180 L114 140 Z" fill="{sk}" {S}/>'
+    head = f'<circle cx="100" cy="100" r="58" fill="{sk}" {S}/>'
+    back = front = extra = ears = ""
+    if c["style"] == "bun":
+        back = (f'<circle cx="100" cy="30" r="26" fill="{c["hair"]}" {S}/>'
+                f'<rect x="84" y="40" width="32" height="12" rx="6" fill="#E07A8B" {S}/>'
+                f'<path d="M42 112 C34 50 70 36 100 36 C130 36 166 50 158 112 L158 152 Q146 154 144 132 L56 132 Q54 154 42 152 Z" fill="{c["hair"]}" {S}/>')
+        front = (f'<path d="M42 108 C42 56 76 40 100 42 C124 40 158 56 158 108 C154 90 142 76 122 70 Q108 66 102 80 Q96 66 80 70 C60 76 48 90 42 108 Z" fill="{c["hair"]}" {S}/>'
+                 f'<path d="M44 96 Q38 128 52 156 Q58 130 58 100 Z" fill="{c["hair"]}" {S}/>'
+                 f'<path d="M156 96 Q162 128 148 156 Q142 130 142 100 Z" fill="{c["hair"]}" {S}/>')
+        extra = (f'<circle cx="42" cy="150" r="8" fill="none" stroke="#D9A441" stroke-width="4"/>'
+                 f'<circle cx="158" cy="150" r="8" fill="none" stroke="#D9A441" stroke-width="4"/>')
     else:
-        back = f'<path d="M34 108 C28 42 68 28 100 28 C134 28 172 42 166 108 L168 146 L32 146 Z" fill="{c["hair"]}" {S}/>'
-        front = f'<path d="M40 96 C38 48 74 34 106 34 C142 34 164 56 160 98 C150 76 132 62 112 56 C96 72 66 88 40 96 Z" fill="{c["hair"]}" {S}/>'
-    glasses = ""
-    if c.get("glasses"):
-        glasses = (f'<circle cx="78" cy="102" r="17" fill="none" stroke="{INK}" stroke-width="4"/>'
-                   f'<circle cx="122" cy="102" r="17" fill="none" stroke="{INK}" stroke-width="4"/>'
-                   f'<path d="M95 100 Q100 96 105 100" fill="none" stroke="{INK}" stroke-width="4"/>')
+        ears = f'<circle cx="42" cy="106" r="13" fill="{sk}" {S}/><circle cx="158" cy="106" r="13" fill="{sk}" {S}/>'
+        front = (f'<path d="M44 98 C36 66 48 42 68 40 C74 22 100 18 112 30 C126 18 152 26 154 46 C168 54 166 84 156 98 '
+                 f'C150 80 140 72 128 70 C112 76 82 74 64 72 C54 78 48 88 44 98 Z" fill="{c["hair"]}" {S}/>')
+        extra = f'<path d="M50 118 Q100 176 150 118 Q142 150 100 156 Q58 150 50 118 Z" fill="#5A4436" opacity="0.22"/>'
     return (f'<svg width="{size}" height="{size * 1.3:.0f}" viewBox="0 0 200 260" style="display:block;flex-shrink:0">'
-            f'{back}{body}{neck}{head}{front}{face(mood)}{glasses}</svg>')
+            f'{back}{body}{hood}{strings}{neck}{ears}{head}{front}{extra}{face(mood)}</svg>')
 
 
 def bubble(text, side, fs):
