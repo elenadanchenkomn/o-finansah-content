@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 28,
+  "next_lesson_number": 29,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -107,10 +107,17 @@
       "book_mention": true,
       "status": "scheduled",
       "lesson": 27
+    },
+    {
+      "date": "2026-11-04",
+      "kind": "lesson",
+      "topic": "Снежный ком и лавина: два способа гасить несколько долгов",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 28
     }
   ],
   "backlog": [
-    "Снежный ком и лавина: два способа гасить несколько долгов",
     "Почему «быстро разбогатеть» — ловушка",
     "Акции, облигации и фонды простыми словами",
     "Рынок упал: что делать и чего не делать",
