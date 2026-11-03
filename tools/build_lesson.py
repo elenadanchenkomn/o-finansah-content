@@ -19,6 +19,7 @@ Slide types and their fields:
   truth      text                                  (red "Неприятная правда" slide)
   checklist  label?, items: [..] (max 5)           (label default "5 МИНУТ ПРЯМО СЕЙЧАС")
   final      heading, save_text?, cta_title?, cta_sub?, book?   (book = one line about the book)
+  comic      title?, label?, panels: [{caption?, chars, bubbles}]  (1 panel; see tools/comic.py)
 """
 import html, json, sys, pathlib
 from playwright.sync_api import sync_playwright
@@ -137,6 +138,8 @@ def center(inner, gap):
     return f'<div style="flex-grow:1;display:flex;flex-direction:column;justify-content:center;gap:{gap}px">{inner}</div>'
 
 
+from comic import body_comic  # noqa: E402  (comic slides, see tools/comic.py)
+
 BUILDERS = {k[5:]: v for k, v in globals().items() if k.startswith("body_")}
 
 
@@ -170,7 +173,7 @@ def main():
             pg.evaluate("document.fonts.ready")
             pg.wait_for_timeout(250)
             box = pg.locator("body > div").first
-            overflow = pg.evaluate("(() => { const r = document.querySelector('body > div'); return r.scrollHeight > r.clientHeight + 1; })()")
+            overflow = pg.evaluate("(() => { const r = document.querySelector('body > div'); if (r.scrollHeight > r.clientHeight + 1) return true; return [...document.querySelectorAll('[data-ov]')].some(x => x.scrollHeight > x.clientHeight + 1); })()")
             box.screenshot(path=str(out / f"slide-{i:02d}.png"))
             tmp.unlink()
             print(f"slide {i}: {s['type']}" + ("  !! TEXT OVERFLOWS — shorten it" if overflow else ""))
