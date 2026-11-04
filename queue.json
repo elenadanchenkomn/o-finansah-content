@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 29,
+  "next_lesson_number": 30,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -115,10 +115,17 @@
       "book_mention": false,
       "status": "scheduled",
       "lesson": 28
+    },
+    {
+      "date": "2026-11-05",
+      "kind": "lesson",
+      "topic": "Почему «быстро разбогатеть» — ловушка",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 29
     }
   ],
   "backlog": [
-    "Почему «быстро разбогатеть» — ловушка",
     "Акции, облигации и фонды простыми словами",
     "Рынок упал: что делать и чего не делать",
     "Инфобизнес: как распознать курс, который зарабатывает только на вас",
