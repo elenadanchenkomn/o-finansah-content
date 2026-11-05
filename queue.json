@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 30,
+  "next_lesson_number": 31,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -123,10 +123,17 @@
       "book_mention": true,
       "status": "scheduled",
       "lesson": 29
+    },
+    {
+      "date": "2026-11-06",
+      "kind": "lesson",
+      "topic": "Акции, облигации и фонды простыми словами",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 30
     }
   ],
   "backlog": [
-    "Акции, облигации и фонды простыми словами",
     "Рынок упал: что делать и чего не делать",
     "Инфобизнес: как распознать курс, который зарабатывает только на вас",
     "Крипта и FOMO: почему страх упустить — плохой советчик",
