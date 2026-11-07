@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 32,
+  "next_lesson_number": 33,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -139,10 +139,17 @@
       "book_mention": true,
       "status": "scheduled",
       "lesson": 31
+    },
+    {
+      "date": "2026-11-08",
+      "kind": "lesson",
+      "topic": "Инфобизнес: как распознать курс, который зарабатывает только на вас",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 32
     }
   ],
   "backlog": [
-    "Инфобизнес: как распознать курс, который зарабатывает только на вас",
     "Крипта и FOMO: почему страх упустить — плохой советчик",
     "Сравнение с другими: как соцсети заставляют тратить больше",
     "Пенсия: почему о ней стоит думать уже в 30",
