@@ -2,7 +2,7 @@
  "publish_time": "19:00",
  "timezone": "Asia/Tbilisi",
  "metricool_blog_id": "7548346",
- "next_lesson_number": 34,
+ "next_lesson_number": 35,
  "schedule": [
   {
    "date": "2026-10-21",
@@ -161,7 +161,8 @@
    "kind": "lesson",
    "topic": "Сравнение с другими: как соцсети заставляют тратить больше",
    "book_mention": false,
-   "status": "planned"
+   "status": "scheduled",
+   "lesson": 34
   }
  ],
  "backlog": [
