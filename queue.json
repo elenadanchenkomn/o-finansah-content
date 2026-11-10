@@ -2,7 +2,7 @@
  "publish_time": "19:00",
  "timezone": "Asia/Tbilisi",
  "metricool_blog_id": "7548346",
- "next_lesson_number": 35,
+ "next_lesson_number": 36,
  "schedule": [
   {
    "date": "2026-10-21",
@@ -163,10 +163,17 @@
    "book_mention": false,
    "status": "scheduled",
    "lesson": 34
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "lesson",
+   "topic": "Пенсия: почему о ней стоит думать уже в 30",
+   "book_mention": true,
+   "status": "scheduled",
+   "lesson": 35
   }
  ],
  "backlog": [
-  "Пенсия: почему о ней стоит думать уже в 30",
   "Сложный процент: почему начать с маленьких сумм лучше, чем ждать",
   "Как сказать «нет» родным, которые просят деньги",
   "Первые 90 дней после переезда: что делать с деньгами",
