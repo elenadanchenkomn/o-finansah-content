@@ -1,204 +1,211 @@
 {
- "publish_time": "19:00",
- "timezone": "Asia/Tbilisi",
- "metricool_blog_id": "7548346",
- "next_lesson_number": 37,
- "schedule": [
-  {
-   "date": "2026-10-21",
-   "kind": "lesson",
-   "lesson": 15,
-   "topic": "Подписки",
-   "book_mention": false,
-   "status": "scheduled"
-  },
-  {
-   "date": "2026-10-22",
-   "kind": "lesson",
-   "lesson": 16,
-   "topic": "Рассрочка «без переплат»",
-   "book_mention": true,
-   "status": "scheduled"
-  },
-  {
-   "date": "2026-10-23",
-   "kind": "lesson",
-   "topic": "Импульсивные покупки на маркетплейсах: почему мы покупаем в 2 ночи",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 17
-  },
-  {
-   "date": "2026-10-24",
-   "kind": "lesson",
-   "topic": "Правило 50/30/20: как делить зарплату без таблиц",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 18
-  },
-  {
-   "date": "2026-10-25",
-   "kind": "lesson",
-   "topic": "Кредитная карта и льготный период: как бесплатная кредитка становится платной",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 19
-  },
-  {
-   "date": "2026-10-26",
-   "kind": "lesson",
-   "topic": "Инфляция: почему деньги под матрасом каждый год становятся меньше",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 20
-  },
-  {
-   "date": "2026-10-27",
-   "kind": "lesson",
-   "topic": "5 признаков финансовой пирамиды",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 21
-  },
-  {
-   "date": "2026-10-28",
-   "kind": "lesson",
-   "topic": "Нестабильный доход: как планировать деньги без оклада",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 22
-  },
-  {
-   "date": "2026-10-29",
-   "kind": "lesson",
-   "topic": "Деньги в паре: как говорить о деньгах и не поссориться",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 23
-  },
-  {
-   "date": "2026-10-30",
-   "kind": "lesson",
-   "topic": "Деньги — это инструмент, а не оценка вас как человека",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 24
-  },
-  {
-   "date": "2026-10-31",
-   "kind": "lesson",
-   "topic": "Жить сейчас или копить потом: как найти баланс",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 25
-  },
-  {
-   "date": "2026-11-02",
-   "kind": "lesson",
-   "topic": "Когда занимать можно, а когда нельзя: хороший и плохой долг",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 26
-  },
-  {
-   "date": "2026-11-03",
-   "kind": "lesson",
-   "topic": "Как банк считает проценты по кредиту: почему ставка в рекламе не равна переплате",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 27
-  },
-  {
-   "date": "2026-11-04",
-   "kind": "lesson",
-   "topic": "Снежный ком и лавина: два способа гасить несколько долгов",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 28
-  },
-  {
-   "date": "2026-11-05",
-   "kind": "lesson",
-   "topic": "Почему «быстро разбогатеть» — ловушка",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 29
-  },
-  {
-   "date": "2026-11-06",
-   "kind": "lesson",
-   "topic": "Акции, облигации и фонды простыми словами",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 30
-  },
-  {
-   "date": "2026-11-07",
-   "kind": "lesson",
-   "topic": "Рынок упал: что делать и чего не делать",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 31
-  },
-  {
-   "date": "2026-11-08",
-   "kind": "lesson",
-   "topic": "Инфобизнес: как распознать курс, который зарабатывает только на вас",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 32
-  },
-  {
-   "date": "2026-11-09",
-   "kind": "lesson",
-   "topic": "Крипта и FOMO: почему страх упустить — плохой советчик",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 33
-  },
-  {
-   "date": "2026-11-10",
-   "kind": "lesson",
-   "topic": "Сравнение с другими: как соцсети заставляют тратить больше",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 34
-  },
-  {
-   "date": "2026-11-11",
-   "kind": "lesson",
-   "topic": "Пенсия: почему о ней стоит думать уже в 30",
-   "book_mention": true,
-   "status": "scheduled",
-   "lesson": 35
-  },
-  {
-   "date": "2026-11-12",
-   "kind": "lesson",
-   "topic": "Сложный процент: почему начать с маленьких сумм лучше, чем ждать",
-   "book_mention": false,
-   "status": "scheduled",
-   "lesson": 36
-  }
- ],
- "backlog": [
-  "Как сказать «нет» родным, которые просят деньги",
-  "Первые 90 дней после переезда: что делать с деньгами",
-  "Переводы между странами: сколько вы теряете на комиссиях и курсе",
-  "Финансовая тревога: как перестать бояться открывать банковское приложение",
-  "Финансовое выгорание: когда больше не можешь думать о деньгах",
-  "Чек-лист финансового здоровья: 7 вопросов к себе раз в год"
- ],
- "postponed": [
-  {
-   "kind": "manual",
-   "topic": "Знакомство с автором",
-   "notes": "Нужны факты от автора: кто она, её история с деньгами, фото. Без них не публиковать."
-  },
-  {
-   "kind": "manual",
-   "topic": "Пост о книге: что внутри и для кого",
-   "notes": "Нужны цена, формат, ссылка на покупку и, если есть, отзывы. Без них не публиковать."
-  }
- ]
+  "publish_time": "19:00",
+  "timezone": "Asia/Tbilisi",
+  "metricool_blog_id": "7548346",
+  "next_lesson_number": 38,
+  "schedule": [
+    {
+      "date": "2026-10-21",
+      "kind": "lesson",
+      "lesson": 15,
+      "topic": "Подписки",
+      "book_mention": false,
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-22",
+      "kind": "lesson",
+      "lesson": 16,
+      "topic": "Рассрочка «без переплат»",
+      "book_mention": true,
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-23",
+      "kind": "lesson",
+      "topic": "Импульсивные покупки на маркетплейсах: почему мы покупаем в 2 ночи",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 17
+    },
+    {
+      "date": "2026-10-24",
+      "kind": "lesson",
+      "topic": "Правило 50/30/20: как делить зарплату без таблиц",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 18
+    },
+    {
+      "date": "2026-10-25",
+      "kind": "lesson",
+      "topic": "Кредитная карта и льготный период: как бесплатная кредитка становится платной",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 19
+    },
+    {
+      "date": "2026-10-26",
+      "kind": "lesson",
+      "topic": "Инфляция: почему деньги под матрасом каждый год становятся меньше",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 20
+    },
+    {
+      "date": "2026-10-27",
+      "kind": "lesson",
+      "topic": "5 признаков финансовой пирамиды",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 21
+    },
+    {
+      "date": "2026-10-28",
+      "kind": "lesson",
+      "topic": "Нестабильный доход: как планировать деньги без оклада",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 22
+    },
+    {
+      "date": "2026-10-29",
+      "kind": "lesson",
+      "topic": "Деньги в паре: как говорить о деньгах и не поссориться",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 23
+    },
+    {
+      "date": "2026-10-30",
+      "kind": "lesson",
+      "topic": "Деньги — это инструмент, а не оценка вас как человека",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 24
+    },
+    {
+      "date": "2026-10-31",
+      "kind": "lesson",
+      "topic": "Жить сейчас или копить потом: как найти баланс",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 25
+    },
+    {
+      "date": "2026-11-02",
+      "kind": "lesson",
+      "topic": "Когда занимать можно, а когда нельзя: хороший и плохой долг",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 26
+    },
+    {
+      "date": "2026-11-03",
+      "kind": "lesson",
+      "topic": "Как банк считает проценты по кредиту: почему ставка в рекламе не равна переплате",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 27
+    },
+    {
+      "date": "2026-11-04",
+      "kind": "lesson",
+      "topic": "Снежный ком и лавина: два способа гасить несколько долгов",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 28
+    },
+    {
+      "date": "2026-11-05",
+      "kind": "lesson",
+      "topic": "Почему «быстро разбогатеть» — ловушка",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 29
+    },
+    {
+      "date": "2026-11-06",
+      "kind": "lesson",
+      "topic": "Акции, облигации и фонды простыми словами",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 30
+    },
+    {
+      "date": "2026-11-07",
+      "kind": "lesson",
+      "topic": "Рынок упал: что делать и чего не делать",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 31
+    },
+    {
+      "date": "2026-11-08",
+      "kind": "lesson",
+      "topic": "Инфобизнес: как распознать курс, который зарабатывает только на вас",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 32
+    },
+    {
+      "date": "2026-11-09",
+      "kind": "lesson",
+      "topic": "Крипта и FOMO: почему страх упустить — плохой советчик",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 33
+    },
+    {
+      "date": "2026-11-10",
+      "kind": "lesson",
+      "topic": "Сравнение с другими: как соцсети заставляют тратить больше",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 34
+    },
+    {
+      "date": "2026-11-11",
+      "kind": "lesson",
+      "topic": "Пенсия: почему о ней стоит думать уже в 30",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 35
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "lesson",
+      "topic": "Сложный процент: почему начать с маленьких сумм лучше, чем ждать",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 36
+    },
+    {
+      "date": "2026-11-13",
+      "kind": "lesson",
+      "topic": "Как сказать «нет» родным, которые просят деньги",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 37
+    }
+  ],
+  "backlog": [
+    "Первые 90 дней после переезда: что делать с деньгами",
+    "Переводы между странами: сколько вы теряете на комиссиях и курсе",
+    "Финансовая тревога: как перестать бояться открывать банковское приложение",
+    "Финансовое выгорание: когда больше не можешь думать о деньгах",
+    "Чек-лист финансового здоровья: 7 вопросов к себе раз в год"
+  ],
+  "postponed": [
+    {
+      "kind": "manual",
+      "topic": "Знакомство с автором",
+      "notes": "Нужны факты от автора: кто она, её история с деньгами, фото. Без них не публиковать."
+    },
+    {
+      "kind": "manual",
+      "topic": "Пост о книге: что внутри и для кого",
+      "notes": "Нужны цена, формат, ссылка на покупку и, если есть, отзывы. Без них не публиковать."
+    }
+  ]
 }
