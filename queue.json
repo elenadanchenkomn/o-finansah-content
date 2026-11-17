@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 42,
+  "next_lesson_number": 43,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -219,11 +219,17 @@
       "book_mention": true,
       "status": "scheduled",
       "lesson": 41
+    },
+    {
+      "date": "2026-11-18",
+      "kind": "lesson",
+      "topic": "Чек-лист финансового здоровья: 7 вопросов к себе раз в год",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 42
     }
   ],
-  "backlog": [
-    "Чек-лист финансового здоровья: 7 вопросов к себе раз в год"
-  ],
+  "backlog": [],
   "postponed": [
     {
       "kind": "manual",
