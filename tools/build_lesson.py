@@ -14,7 +14,7 @@ Slide types and their fields:
   statement  label, big_lines: [..] (2-5 short lines), body?
   explain    label, heading, body?, callout?
   receipt    label, items: [[name, amount], ...] (max 7), totals: [[label, value, "accent"?], ...], after?, note?
-  steps      label, items: [[title, desc], ...] (max 4)
+  steps      label, items: [[title, desc], ...] (max 4), start? (first number, default 1)
   questions  label, heading, cards: [..] (max 3), conclusion?
   truth      text                                  (red "Неприятная правда" slide)
   checklist  label?, items: [..] (max 5)           (label default "5 МИНУТ ПРЯМО СЕЙЧАС")
@@ -89,7 +89,7 @@ def body_receipt(s):
 
 def body_steps(s):
     out = label(s["label"])
-    for i, (t, d) in enumerate(s["items"][:4], 1):
+    for i, (t, d) in enumerate(s["items"][:4], s.get("start", 1)):
         out += (f'<div style="display:flex;gap:36px;align-items:flex-start">'
                 f'<div style="flex-shrink:0;width:96px;height:96px;border-radius:48px;background:{GREEN};color:{BG};display:flex;align-items:center;justify-content:center;font-size:48px;font-weight:800">{i}</div>'
                 f'<div style="display:flex;flex-direction:column;gap:10px"><span style="font-size:52px;font-weight:800;line-height:1.15">{e(t)}</span>'
