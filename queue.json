@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 43,
+  "next_lesson_number": 44,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -227,10 +227,17 @@
       "book_mention": false,
       "status": "scheduled",
       "lesson": 42
+    },
+    {
+      "date": "2026-11-19",
+      "kind": "lesson",
+      "topic": "«Зарплата пришла — и через неделю её нет»",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 43
     }
   ],
   "backlog": [
-    "«Зарплата пришла — и через неделю её нет»",
     "«До зарплаты 5 дней, а на карте 300»",
     "«Зарабатываю больше, чем раньше, а денег всё равно нет»",
     "«Не понимаю, куда уходят деньги»",
