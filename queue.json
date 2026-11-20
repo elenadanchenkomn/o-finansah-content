@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 45,
+  "next_lesson_number": 46,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -243,10 +243,17 @@
       "book_mention": false,
       "status": "scheduled",
       "lesson": 44
+    },
+    {
+      "date": "2026-11-21",
+      "kind": "lesson",
+      "topic": "«Зарабатываю больше, чем раньше, а денег всё равно нет»",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 45
     }
   ],
   "backlog": [
-    "«Зарабатываю больше, чем раньше, а денег всё равно нет»",
     "«Не понимаю, куда уходят деньги»",
     "«Мелочи по 200 — а в месяц набегает как за аренду»",
     "«Опять занимаю до зарплаты»",
