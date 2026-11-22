@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 47,
+  "next_lesson_number": 48,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -259,10 +259,17 @@
       "book_mention": false,
       "status": "scheduled",
       "lesson": 46
+    },
+    {
+      "date": "2026-11-23",
+      "kind": "lesson",
+      "topic": "«Мелочи по 200 — а в месяц набегает как за аренду»",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 47
     }
   ],
   "backlog": [
-    "«Мелочи по 200 — а в месяц набегает как за аренду»",
     "«Опять занимаю до зарплаты»",
     "«Каждый месяц обещаю себе начать копить»",
     "«Страшно посмотреть, сколько я должен»",
