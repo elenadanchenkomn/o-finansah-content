@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 48,
+  "next_lesson_number": 49,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -267,10 +267,17 @@
       "book_mention": true,
       "status": "scheduled",
       "lesson": 47
+    },
+    {
+      "date": "2026-11-24",
+      "kind": "lesson",
+      "topic": "«Опять занимаю до зарплаты»",
+      "book_mention": false,
+      "status": "scheduled",
+      "lesson": 48
     }
   ],
   "backlog": [
-    "«Опять занимаю до зарплаты»",
     "«Каждый месяц обещаю себе начать копить»",
     "«Страшно посмотреть, сколько я должен»",
     "«Взял кредит, чтобы закрыть кредит»",
