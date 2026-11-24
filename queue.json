@@ -2,7 +2,7 @@
   "publish_time": "19:00",
   "timezone": "Asia/Tbilisi",
   "metricool_blog_id": "7548346",
-  "next_lesson_number": 49,
+  "next_lesson_number": 50,
   "schedule": [
     {
       "date": "2026-10-21",
@@ -275,10 +275,17 @@
       "book_mention": false,
       "status": "scheduled",
       "lesson": 48
+    },
+    {
+      "date": "2026-11-25",
+      "kind": "lesson",
+      "topic": "«Каждый месяц обещаю себе начать копить»",
+      "book_mention": true,
+      "status": "scheduled",
+      "lesson": 49
     }
   ],
   "backlog": [
-    "«Каждый месяц обещаю себе начать копить»",
     "«Страшно посмотреть, сколько я должен»",
     "«Взял кредит, чтобы закрыть кредит»",
     "«Звонят из банка, а мне нечем платить» (только общие спокойные шаги, без юридических советов)",
