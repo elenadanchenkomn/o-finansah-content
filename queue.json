@@ -2,7 +2,7 @@
  "publish_time": "19:00",
  "timezone": "Asia/Tbilisi",
  "metricool_blog_id": "7548346",
- "next_lesson_number": 52,
+ "next_lesson_number": 53,
  "schedule": [
   {
    "date": "2026-10-21",
@@ -299,10 +299,17 @@
    "book_mention": true,
    "status": "scheduled",
    "lesson": 51
+  },
+  {
+   "date": "2026-11-28",
+   "kind": "lesson",
+   "topic": "«Звонят из банка, а мне нечем платить»",
+   "book_mention": false,
+   "status": "scheduled",
+   "lesson": 52
   }
  ],
  "backlog": [
-  "«Звонят из банка, а мне нечем платить» (только общие спокойные шаги, без юридических советов)",
   "«Стыдно признаться близким, что у меня долги»",
   "«Плачу минимальный платёж, а долг не уменьшается» (без конкретных ставок и законов)",
   "«Не сплю из-за денег»",
